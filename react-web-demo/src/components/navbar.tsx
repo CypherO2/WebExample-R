@@ -9,7 +9,7 @@ function NavbarDark() {
     <>
       <Navbar className="fixed-top" bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt="Logo"
               src={Logo}
