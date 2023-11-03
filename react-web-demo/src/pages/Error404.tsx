@@ -1,14 +1,15 @@
-import NavbarDark from "../components/navbar";
-// import Footer from "../components/footer";
-import { Container } from "react-bootstrap";
+
+import { useEffect } from "react";
 import ErrorContent from "../components/pagecontent/not-found-content";
 function ErrorPage() {
+  useEffect(() =>{
+    document.title = "404 - Not Found"
+  })
   return (
     <>
-      <NavbarDark />
-      <Container>
+
         <ErrorContent />
-      </Container>
+
     </>
   );
 }

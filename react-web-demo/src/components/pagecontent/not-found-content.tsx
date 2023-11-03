@@ -20,61 +20,79 @@ function ErrorContent() {
           <img alt="logo" src={Space} width="15%" className="rounded" />
         </Col>
         <Col>
-          <h1 className="text-center">Error 404: Page Not Found</h1>
+          <h1 className="text-center fs-1">
+            <b>Error 404:</b>
+          </h1>
+          <h2 className="text-muted text-center">Page Not Found</h2>
         </Col>
         <Col>
-          <p className="text-light">.</p>
+          <p className="text-light"> </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p className="text-light">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </p>
         </Col>
       </Row>
       <Row>
         <Col>
           <p className="text-light">.</p>
         </Col>
-      </Row>
-      <Row>
         <Col>
-          <p className="text-light">.</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p className="text-light">.</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p className="text-light">.</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p className="text-light">.</p>
-        </Col>
-        <Col>
-          <p className="text-center">
-            <b>That URL was not found.</b>
+          <p className="text-center fs-1">
+            <b>URL not found.</b>
           </p>
         </Col>
         <Col>
-          <p className="text-light">.</p>
+          <p className="text-light"> </p>
         </Col>
       </Row>
       <Row>
         <Col>
-          <p className="text-light">.</p>
+          <p className="text-light"> </p>
         </Col>
         <Col>
-          <p className="text-center">
-            About <a href="https://kb.iu.edu/d/bfrc">HTML Errors</a>
+          <p className="text-center fs-4">
+            About{" "}
+            <a href="https://kb.iu.edu/d/bfrc">
+              Common
+              <br />
+              HTML Errors.
+            </a>
           </p>
         </Col>
         <Col>
-          <p className="text-light">.</p>
+          <p className="text-light"> </p>
         </Col>
       </Row>
       <Row>
         <Col>
-          <p className="text-light">.</p>
+          <p className="text-light">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </p>
         </Col>
       </Row>
     </>

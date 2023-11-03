@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 import { Row } from "react-bootstrap";
-import Space from "../assets/Space2.jpeg";
-import SpaceV2 from "../assets/space.jpeg";
+import Space from "../../assets/Space2.jpeg";
+import SpaceV2 from "../../assets/space.jpeg";
 
 function HomeContent() {
   return (

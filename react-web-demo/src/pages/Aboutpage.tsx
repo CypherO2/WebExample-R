@@ -1,15 +1,12 @@
-import NavbarDark from "../components/navbar";
-import Footer from "../components/footer";
-import { Container } from "react-bootstrap";
+import { useEffect } from "react";
 import AboutContent from "../components/pagecontent/about-content";
 function AboutPage() {
+  useEffect(() =>{
+    document.title = "SCC- Demo About"
+  })
   return (
     <>
-      <NavbarDark />
-      <Container>
         <AboutContent />
-      </Container>
-      <Footer />
     </>
   );
 }
