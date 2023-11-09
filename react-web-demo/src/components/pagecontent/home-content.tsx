@@ -2,6 +2,7 @@ import { Col } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import Space from "../../assets/Space2.jpeg";
 import SpaceV2 from "../../assets/space.jpeg";
+import StockMarketAPI from "../api-components/stock-api";
 
 function HomeContent() {
   return (
@@ -41,35 +42,7 @@ function HomeContent() {
           />
         </Col>
         <Col xs={6}>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. In
-            tellus integer feugiat scelerisque varius. Nec feugiat in fermentum
-            posuere urna nec. Integer malesuada nunc vel risus commodo viverra.
-            Tempus imperdiet nulla malesuada pellentesque elit. Mi eget mauris
-            pharetra et. A erat nam at lectus urna duis convallis. Nibh cras
-            pulvinar mattis nunc sed blandit libero volutpat. Mi tempus
-            imperdiet nulla malesuada pellentesque elit. Consequat interdum
-            varius sit amet mattis vulputate enim. Ac tortor vitae purus
-            faucibus. Ornare aenean euismod elementum nisi quis eleifend quam.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
-            mauris vitae ultricies leo integer malesuada.
-            <br />
-            <br />
-            Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor.
-            Aenean et tortor at risus viverra adipiscing at in. Sagittis eu
-            volutpat odio facilisis. Pharetra magna ac placerat vestibulum
-            lectus mauris ultrices. Eu scelerisque felis imperdiet proin
-            fermentum. Lacinia at quis risus sed. Gravida cum sociis natoque
-            penatibus et magnis dis. Vestibulum lectus mauris ultrices eros in
-            cursus turpis massa. Ac orci phasellus egestas tellus rutrum tellus
-            pellentesque. Tellus at urna condimentum mattis pellentesque id. Ac
-            placerat vestibulum lectus mauris. Aliquet enim tortor at auctor
-            urna nunc id cursus. Mauris vitae ultricies leo integer malesuada
-            nunc vel risus. Bibendum ut tristique et egestas quis ipsum
-            suspendisse ultrices. Maecenas sed enim ut sem.
-          </p>
+          <StockMarketAPI />
         </Col>
       </Row>
       <Row>
