@@ -2,7 +2,8 @@ import { Col } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import Space from "../../assets/Space2.jpeg";
 import SpaceV2 from "../../assets/space.jpeg";
-import StockMarketAPI from "../api-components/stock-api";
+// import StockMarketAPI from "../api-components/stock-api";
+import DadJoke from "../api-components/dad-joke-api";
 
 function HomeContent() {
   return (
@@ -42,7 +43,7 @@ function HomeContent() {
           />
         </Col>
         <Col xs={6}>
-          <StockMarketAPI />
+          <DadJoke />
         </Col>
       </Row>
       <Row>
