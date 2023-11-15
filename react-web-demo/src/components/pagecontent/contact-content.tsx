@@ -32,7 +32,7 @@ function ContactContent() {
       </Row>
       <Row>
         <Col>
-          <Map1 />
+          <Map2 />
         </Col>
         <Col>
           <p>
