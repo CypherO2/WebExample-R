@@ -4,6 +4,8 @@ import Space from "../../assets/Space2.jpeg";
 import SpaceV2 from "../../assets/space.jpeg";
 // import StockMarketAPI from "../api-components/stock-api";
 import DadJoke from "../api-components/dad-joke-api";
+import NameProvider from "../NameProvider";
+import NameForm from "../nameform";
 
 function HomeContent() {
   return (
@@ -43,7 +45,10 @@ function HomeContent() {
           />
         </Col>
         <Col xs={6}>
-          <DadJoke />
+          {/* <DadJoke /> */}
+          <NameProvider>
+            <NameForm />
+          </NameProvider>
         </Col>
       </Row>
       <Row>

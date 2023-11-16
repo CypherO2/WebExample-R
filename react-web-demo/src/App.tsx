@@ -25,7 +25,7 @@ function App() {
           <Route path={INDEX_PATH} element={<HomePage />} />
           <Route path={ABOUT_PATH} element={<AboutPage />} />
           <Route path={CONTACT_PATH} element={<Contacts />} />
-          <Route path={USER_PATH} element={<UserPage />}/>
+          <Route path={USER_PATH} element={<UserPage />} />
           <Route path={NOT_FOUND_PATH} element={<ErrorPage />} />
         </Routes>
       </Container>
